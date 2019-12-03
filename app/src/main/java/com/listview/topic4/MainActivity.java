@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 String capital = Dictionary.get(country);
 
                 Intent intent = new Intent(MainActivity.this,CapitalActivity.class);
-                intent.putExtra(capital,capital);
+                intent.putExtra("capital",capital);
                 startActivity(intent);
                 //Toast.makeText(MainActivity.this, capital, Toast.LENGTH_SHORT).show();
 
